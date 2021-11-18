@@ -1,1 +1,1 @@
-Считаем
+Full Python
