@@ -5,10 +5,8 @@ while True:
     if not name:
         break
     age = input("Введите возраст: ")
-
-    # Добавить в словарь если пользователя с именем `name` ранее не было.
-    # Если вы хотите не только добавлять, но и изменять age у уже существующих `name`,
-    # удалите две строки ниже.
-   
+    isName = username.get(name, None)
+    if isName is None:
+        username[name] = age
 
 print(username)
