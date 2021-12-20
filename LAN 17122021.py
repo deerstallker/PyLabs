@@ -70,11 +70,10 @@ class Application(tk.Frame):
 
     def say_hi(self):
         print('http://{}/api/setLink?port=1&state=0'.format(self.name_entry.get()))
-
-        #clicks = requests.get('http://{}/api/setLink?port=1&state=0'.format(self.name_entry.get()))
+        clicks = requests.get('http://{}/api/setLink?port=1&state=0'.format(self.name_entry.get()))
     def say_hi1(self):
         print('http://{}/api/setPoe?port=1&state=0'.format(self.name_entry.get()))
-        #clicks = requests.get('http://{}/api/setLink?port=1&state=0'.format(self.name_entry.get()))
+        clicks = requests.get('http://{}/api/setLink?port=1&state=0'.format(self.name_entry.get()))
 
     def button_clicked(self):
         self.button['text'] = time.strftime('%H:%M:%S')
