@@ -1,3 +1,6 @@
+# Программа для удаленного API управления сетевым коммутатором.
+# Позволяет управлять сетевыми интерфейсами (потоком данных и РоЕ сигналом порта)
+
 from tkinter import *
 from tkinter import messagebox
 import tkinter as tk
